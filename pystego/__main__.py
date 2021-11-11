@@ -33,7 +33,7 @@ def main():
             message = input('ENTER MESSAGE: ')
         encode(args.src, message)
     else:
-        logging.error('INVALID COMMAND LINE ARGS')
+        logging.error('INVALID COMMAND LINE ARGS, RUN `pystego -h`')
 
 
 if __name__ == '__main__':
