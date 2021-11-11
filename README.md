@@ -59,6 +59,7 @@ SUCCESS: Image Decoded Successfully @ resources/hacker.png
 - Implement file encoding into digital images
 - Save the output message into another standalone file
 - Implement encryption of the original text for better security
+- Documentation for pystego module
 
 ## License
 This repository falls under [GPL-3.0 License](https://github.com/GuptaAyush19/pystego/blob/master/LICENSE)
