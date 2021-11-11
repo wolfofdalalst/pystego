@@ -1,6 +1,6 @@
 import argparse
 import logging
-import sys
+from sys import argv as _argv
 
 from . import ascii_art
 from .stego import encode,decode
@@ -16,7 +16,7 @@ parser.add_argument('-m', '--msg', help='path to the message file')
 args = parser.parse_args()
 
 def main():
-    if len(sys.argv) == 1:
+    if len(_argv) == 1:
         print('Welcome to,', ascii_art, sep='\n')
         parser.print_help()
         print('\nrefer to https://github.com/GuptaAyush19/pystego for more info')
