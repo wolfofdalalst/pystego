@@ -8,7 +8,7 @@ The recommended way for installing this package is using, python PIP, package in
 ```
 pip install git+https://github.com/GuptaAyush19/pystego.git
 ```
-Users can also install this manually by downloading the zip file, extracting it and running this command inside the project directory,
+Users can also install this manually by downloading the zip file from [here](https://github.com/GuptaAyush19/pystego/archive/refs/heads/master.zip), extracting it and running this command inside the project directory,
 ```
 python setup.py install
 ```
