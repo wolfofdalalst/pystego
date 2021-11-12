@@ -8,14 +8,9 @@ The recommended way for installing this package is using, python PIP, package in
 ```
 pip install git+https://github.com/GuptaAyush19/pystego.git
 ```
-Users can also install this manually using
+Users can also install this manually by downloading the zip file, extracting it and running this command inside the project directory,
 ```
-# if ssh setup
-git clone git@github.com:GuptaAyush19/pystego.git
-# else using https
-# git clone https://github.com/GuptaAyush19/pystego.git
-
-pip install .
+python setup.py install
 ```
 
 ## Usage
