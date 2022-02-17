@@ -4,7 +4,7 @@ Hide secret data within a digital image using good ol' terminal
 ![](./resources/pystego.png)
 
 ## Installation
-The recommended way for installing this package is using, python PIP, package installer for python and git, the stupid content tracker. Linux users can install them using `sudo apt install python3-pip git`. After installing pip run this command,
+The recommended way for installing this package is using, python PIP, package installer for python or git. Ubuntu or Debian users can install them using `sudo apt install python3-pip git`. After installing pip run this command,
 ```
 pip install Pillow numpy # install required packages
 pip install git+https://github.com/GuptaAyush19/pystego.git
